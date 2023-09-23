@@ -1,2 +1,3 @@
 # website
-website
+
+Static HTML + Tailwind

@@ -23,4 +23,3 @@ jobs:
           projectName: ${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME }}
           directory: .
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          workingDirectory: my-site

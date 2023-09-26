@@ -20,7 +20,7 @@ jobs:
         with:          
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: website
+          projectName: ${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME }}
           directory: .
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           workingDirectory: my-site
